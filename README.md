@@ -33,3 +33,10 @@ Will be there more informations on this project Wiki. Wait for it.
 
 https://discord.js.org/#/docs/main/stable/general/welcome  
 https://discordjs.guide/#before-you-begin
+
+<!-- LICENSE -->
+## License
+
+Distributed under the Apache License 2.0. See `LICENSE` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
