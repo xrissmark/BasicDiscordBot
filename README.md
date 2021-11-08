@@ -35,6 +35,8 @@ Register new Bot Command using the command bellow. Important: read about it on t
 npm run deploy 
 ```
   
+I'm trying to make it easier to answer interactions, or send messages freely on the guild, but meanwhile you can see more about how to do other stuff than reply with text reading [The DiscordJS Guide](https://discordjs.guide/#before-you-begin).
+  
 ## Some important links and guides
 
 https://discord.js.org/#/docs/main/stable/general/welcome  
