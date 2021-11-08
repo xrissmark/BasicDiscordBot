@@ -8,11 +8,28 @@ See it [on the project Wiki](https://github.com/xrissmark/BasicDiscordBot/wiki/S
   
 ## Adding Commands to your bot!
   
-Create a new file on `commands` folder, naming it with the command name you like and add .js extension.
+Create a new file on `commands` folder, naming it with the new Bot Command name you like and add .js extension.
 ```js
 ex.: ping.js
 ```
-Register the commands using the command bellow. Important: read about it on the [Setup Instructions Wiki page](https://github.com/xrissmark/BasicDiscordBot/wiki/Setup-Instructions).
+  
+To reply the Bot Command with text, you can use:
+```js
+const { SlashCommandBuilder } = require('@discordjs/builders');
+
+module.exports = {
+	data: new SlashCommandBuilder()
+		.setName('command_name')
+		.setDescription('A short description to what the command will do!'),
+	async execute(interaction) {
+		await interaction.reply('The reply text that the bot will send!');
+	},
+};
+```
+  
+Note: you always have to reply the `interaction`. And you can only do it once.
+
+Register new Bot Command using the command bellow. Important: read about it on the [Setup Instructions Wiki page](https://github.com/xrissmark/BasicDiscordBot/wiki/Setup-Instructions).
 
 ```sh-session
 npm run deploy 
