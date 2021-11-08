@@ -1,6 +1,6 @@
 # Basic Discord Bot
 
-This is a simple Discord Bot using discordjs v13.3.1.
+This is a simple Discord Bot using discordjs v13.3.1.  
 Use it as a framework to your bots. It comes with a ping command out of the box to you use as a guide!
 
 ### Instructions
