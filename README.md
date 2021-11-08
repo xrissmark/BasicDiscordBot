@@ -4,30 +4,19 @@ This is a simple Discord Bot using [discordjs](https://github.com/discordjs/disc
 Use it as a framework to your bots. It comes with a ping command out of the box to you use as a guide!
 
 ## Setup instructions
-Create .env file on root and fulfil with the required informations:       
+See it [on the project Wiki](https://github.com/xrissmark/BasicDiscordBot/wiki/Setup-Instructions)!
+  
+## Adding Commands to your bot!
+  
+Create a new file on `commands` folder, naming it with the command name you like and add .js extension.
 ```js
-TOKEN = bot_token  
-CLIENT_ID = bot_application_id  
-GUILD_ID = your_guild_id_for_dev_tests  
-ENV_TYPE = dev_or_prod  
+ex.: ping.js
 ```
-  
-Install dependecies:  
-```sh-session 
-npm ci  
-```
-  
-Every time you add a new command to the bot, you'll have to register the commands again, using the command bellow.  
-NOTE: Discord servers have 1h cooldown to register your commands again. To avoid this, use ENV_TYPE = dev and the proper guild to test it.
-```sh-session 
+Register the commands using the command bellow. Important: read about it on the [Setup Instructions Wiki page](https://github.com/xrissmark/BasicDiscordBot/wiki/Setup-Instructions).
+
+```sh-session
 npm run deploy 
 ```
-Wake up the bot!  
-```sh-session
-npm start
-```
-  
-Will be there more informations on this project Wiki. Wait for it.  
   
 ## Some important links and guides
 
