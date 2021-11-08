@@ -9,5 +9,5 @@ I will wrote some instructions, but if you have some knowledge with programming,
 
 ### Some important links and guides
 
-https://discord.js.org/#/docs/main/stable/general/welcome
+https://discord.js.org/#/docs/main/stable/general/welcome  
 https://discordjs.guide/#before-you-begin
